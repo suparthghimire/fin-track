@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Fin Track
 
-## Getting Started
+Fin track is a financial tracker application that tracks your day to day finances.
 
-First, run the development server:
+<!-- Check the managed service here -->
+
+# Features
+
+- Create transactions ⌛
+- Add multiple bank accounts ⌛
+- Multi user account support ⌛
+- Finance Analytics ⌛
+- AI Agent to guide you manage expenses ⌛
+- PWA ⌛
+- Mobile First ⌛
+
+# Tech Stack
+
+- Framework: [Next JS](https://nextjs.org/)
+- AI Agent: [Gemini 2.0 Flash](https://deepmind.google/technologies/gemini/)
+- Language: [Typescript](https://www.typescriptlang.org/)
+- Database: [Postgres (Neon DB)](https://neon.tech/)
+- Package Manager: [Pnpm](https://pnpm.io/)
+
+# Running Locally
+
+1. Copy .env.example to .env.local
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+cp .env.example .env.local
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install Dependencies
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm i
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. Build Application
 
-## Learn More
+```bash
+pnpm build
+```
 
-To learn more about Next.js, take a look at the following resources:
+4. Start Application
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+pnpm start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+> To start development server, enter command `pnpm dev`
